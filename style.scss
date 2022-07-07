@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "hatton";
+  font-weight: 700;
+  src: url("./assets/fonts/PP-Hatton-Bold-700.woff") format("woff"),
+  }
+@font-face {
+  font-family: "hatton";
+  font-weight: 500;
+  src: url("./assets/fonts/PP-Hatton-Medium-500.woff") format("woff"),
+  }
+@font-face {
+  font-family: "hatton";
+  font-weight: 200;
+  src: url("./assets/fonts/PP-Hatton-Ultralight-200.woff") format("woff"),
+  }
+@font-face {
+  font-family: "avenir";
+  font-weight: 700;
+  src: url("./assets/fonts/AvenirLTStd-Medium.woff") format("woff"),
+  }
+@font-face {
+  font-family: "avenir";
+  font-weight: 200;
+  src: url("./assets/fonts/AvenirLTStd-Light.woff") format("woff"),
+  }
+
+@import "header";
+@import "grid";
+@import "article";
+
+
+body {
+  font-family: "avenir";
+  font-weight: 200;
+  font-size: 18px;
+}
