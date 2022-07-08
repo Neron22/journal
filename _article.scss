@@ -1,12 +1,8 @@
 .article {
-  padding: 0 16px;
+  padding: 24px 16px 0 16px;
   width: auto;
-}
-.article {
   position: relative;
   border-bottom: solid 1px black;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .article-grid1, .article-grid4, .article-grid5, .article-grid6 {
   border-right: solid 1px black;
@@ -18,10 +14,10 @@
   align-items: center;
   text-align: center;
   h3 {
-    width: 60%;
+    width: 76%;
     font-family: "hatton";
     font-weight: 200;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -35,8 +31,8 @@
   h2 {
     text-transform: uppercase;
     margin: 0px;
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 700;
   }
 }
 

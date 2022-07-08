@@ -1,6 +1,7 @@
 .sorting-articles {
   margin-bottom: 26px;
   .active {
+    font-weight: 700;
     &::before {
       content: "";
       position: absolute;
