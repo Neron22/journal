@@ -14,10 +14,25 @@ main {
   grid-row-gap: 0px;
 }
 
-.article-grid1 { grid-area: 1 / 1 / 6 / 5; }
+.article-grid1 {
+  grid-area: 1 / 1 / 6 / 5;
+  .article-img {
+    height: 80% !important;
+  }
+}
 .article-grid2 { grid-area: 1 / 5 / 4 / 7; }
 .article-grid3 { grid-area: 4 / 5 / 7 / 7; }
 .article-grid4 { grid-area: 6 / 1 / 9 / 3; }
 .article-grid5 { grid-area: 6 / 3 / 9 / 5; }
-.article-grid6 { grid-area: 7 / 5 / 9 / 6; }
-.article-grid7 { grid-area: 7 / 6 / 9 / 7; }
+.article-grid6 {
+  grid-area: 7 / 5 / 9 / 6;
+  .article-img {
+    height: 50% !important;
+  }
+}
+.article-grid7 {
+  grid-area: 7 / 6 / 9 / 7;
+  .article-img {
+    height: 50% !important;
+  }
+}

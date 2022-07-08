@@ -24,14 +24,16 @@
   src: url("./assets/fonts/AvenirLTStd-Light.woff") format("woff"),
   }
 
-@import "header";
-@import "grid";
-@import "article";
-@import "header-navbar";
-@import "sorting-articles";
+
+  @import "header";
+  @import "grid";
+  @import "article";
+  @import "header-navbar";
+  @import "sorting-articles";
 
 
-body {
+  body {
+  -webkit-font-smoothing: antialiased;
   font-family: "avenir";
   font-weight: 200;
   font-size: 18px;
