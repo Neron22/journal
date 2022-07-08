@@ -82,11 +82,12 @@ h1 {
 
 main {
   border-top: solid 1px black;
+  margin-bottom: 20px;
 }
 
 .grid-container {
   margin: 0 110px;
-  height: 1200px;
+  height: 1500px;
   border-left: solid 1px black;
   border-right: solid 1px black;
   display: -ms-grid;
@@ -108,7 +109,7 @@ main {
 }
 
 .article-grid1 .article-img {
-  height: 80% !important;
+  height: 82%;
 }
 
 .article-grid2 {
@@ -117,6 +118,10 @@ main {
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
   grid-area: 1 / 5 / 4 / 7;
+}
+
+.article-grid2 .article-content {
+  width: 90%;
 }
 
 .article-grid3 {
@@ -143,6 +148,10 @@ main {
   grid-area: 6 / 3 / 9 / 5;
 }
 
+.article-grid5 .article-content {
+  width: 90%;
+}
+
 .article-grid6 {
   -ms-grid-row: 7;
   -ms-grid-row-span: 2;
@@ -152,7 +161,7 @@ main {
 }
 
 .article-grid6 .article-img {
-  height: 50% !important;
+  height: 55%;
 }
 
 .article-grid7 {
@@ -164,19 +173,14 @@ main {
 }
 
 .article-grid7 .article-img {
-  height: 50% !important;
+  height: 55%;
 }
 
 .article {
-  padding: 0 16px;
+  padding: 24px 16px 0 16px;
   width: auto;
-}
-
-.article {
   position: relative;
   border-bottom: solid 1px black;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .article-grid1, .article-grid4, .article-grid5, .article-grid6 {
@@ -197,10 +201,10 @@ main {
 }
 
 .article-citation h3 {
-  width: 60%;
+  width: 76%;
   font-family: "hatton";
   font-weight: 200;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 
 .article-header {
@@ -221,8 +225,8 @@ main {
 .article-header h2 {
   text-transform: uppercase;
   margin: 0px;
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .article-img {
@@ -290,7 +294,7 @@ img {
   left: 116px;
   width: 20%;
   height: 1px;
-  top: 22px;
+  top: 14px;
   background-color: black;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
@@ -393,6 +397,10 @@ img {
 
 .sorting-articles {
   margin-bottom: 26px;
+}
+
+.sorting-articles .active {
+  font-weight: 700;
 }
 
 .sorting-articles .active::before {
